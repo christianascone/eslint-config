@@ -1,0 +1,42 @@
+{
+  "name": "@christianascone/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint configuration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianascone/eslint-config.git"
+  },
+  "author": "Christian Ascone <ascone.christian@gmail.com>",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "code",
+    "style",
+    "lint",
+    "linter",
+    "eslint",
+    "code style",
+    "check"
+  ],
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "jest": "^29.0.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.23.0"
+  },
+  "main": "index.js",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/christianascone/eslint-config/issues"
+  },
+  "homepage": "https://github.com/christianascone/eslint-config#readme",
+  "directories": {
+    "test": "test"
+  }
+}
